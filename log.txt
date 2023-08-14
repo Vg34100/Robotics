@@ -1,0 +1,1990 @@
+2023-08-10 22:10:31,009 - INFO - Session Started: 2023-08-10 22:10:31.009021
+2023-08-10 22:12:00,810 - INFO - Session Started - UID:ELECTRISTAR, MOCK:True, IMAGES:image
+2023-08-10 22:13:03,824 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-10 22:31:27,119 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-10 22:32:19,973 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-10 22:34:49,218 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-10 22:34:58,186 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:34:58Z" time="2023-08-11T05:34:58Z" stale="2023-08-12T05:34:58Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-10 22:34:59,977 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:34:59Z" time="2023-08-11T05:34:59Z" stale="2023-08-12T05:34:59Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-10 22:35:00,007 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:00.005622Z' start='2023-08-11T05:35:00.005622Z' stale='2023-08-11T05:36:00.005622Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:01,008 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:01Z" time="2023-08-11T05:35:01Z" stale="2023-08-12T05:35:01Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-10 22:35:01,037 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:01.036907Z' start='2023-08-11T05:35:01.036907Z' stale='2023-08-11T05:36:01.036907Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:02,039 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:02Z" time="2023-08-11T05:35:02Z" stale="2023-08-12T05:35:02Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-10 22:35:02,069 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:02.068266Z' start='2023-08-11T05:35:02.068266Z' stale='2023-08-11T05:36:02.068266Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:03,069 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:03Z" time="2023-08-11T05:35:03Z" stale="2023-08-12T05:35:03Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-10 22:35:03,098 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:03.097335Z' start='2023-08-11T05:35:03.097335Z' stale='2023-08-11T05:36:03.097335Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:04,099 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:04Z" time="2023-08-11T05:35:04Z" stale="2023-08-12T05:35:04Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-10 22:35:04,139 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:04.138100Z' start='2023-08-11T05:35:04.138100Z' stale='2023-08-11T05:36:04.138100Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:05,140 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:05Z" time="2023-08-11T05:35:05Z" stale="2023-08-12T05:35:05Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-10 22:35:05,179 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:05.178060Z' start='2023-08-11T05:35:05.178060Z' stale='2023-08-11T05:36:05.178060Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:06,180 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:06Z" time="2023-08-11T05:35:06Z" stale="2023-08-12T05:35:06Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-10 22:35:06,208 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:06.207086Z' start='2023-08-11T05:35:06.207086Z' stale='2023-08-11T05:36:06.207086Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 22:35:07,209 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T05:35:07Z" time="2023-08-11T05:35:07Z" stale="2023-08-12T05:35:07Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-10 22:35:07,243 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T05:35:07.241515Z' start='2023-08-11T05:35:07.241515Z' stale='2023-08-11T05:36:07.241515Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 23:28:27,169 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-10 23:28:34,943 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T06:28:34Z" time="2023-08-11T06:28:34Z" stale="2023-08-12T06:28:34Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-10 23:28:35,726 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T06:28:35.724916Z' start='2023-08-11T06:28:35.724916Z' stale='2023-08-11T06:29:35.724916Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-10 23:28:36,726 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T06:28:36Z" time="2023-08-11T06:28:36Z" stale="2023-08-12T06:28:36Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-10 23:28:36,754 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T06:28:36.753920Z' start='2023-08-11T06:28:36.753920Z' stale='2023-08-11T06:29:36.753920Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:02,944 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-11 00:15:10,929 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:10Z" time="2023-08-11T07:15:10Z" stale="2023-08-12T07:15:10Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:15:12,641 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:12Z" time="2023-08-11T07:15:12Z" stale="2023-08-12T07:15:12Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:15:12,736 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:12.736579Z' start='2023-08-11T07:15:12.736579Z' stale='2023-08-11T07:16:12.736579Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:13,738 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:13Z" time="2023-08-11T07:15:13Z" stale="2023-08-12T07:15:13Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:15:13,767 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:13.766427Z' start='2023-08-11T07:15:13.766427Z' stale='2023-08-11T07:16:13.766427Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:14,768 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:14Z" time="2023-08-11T07:15:14Z" stale="2023-08-12T07:15:14Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:15:14,794 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:14.792826Z' start='2023-08-11T07:15:14.792826Z' stale='2023-08-11T07:16:14.792826Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:15,794 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:15Z" time="2023-08-11T07:15:15Z" stale="2023-08-12T07:15:15Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:15:15,821 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:15.820386Z' start='2023-08-11T07:15:15.820386Z' stale='2023-08-11T07:16:15.820386Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:16,822 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:16Z" time="2023-08-11T07:15:16Z" stale="2023-08-12T07:15:16Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:15:16,848 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:16.847598Z' start='2023-08-11T07:15:16.847598Z' stale='2023-08-11T07:16:16.847598Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:17,848 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:17Z" time="2023-08-11T07:15:17Z" stale="2023-08-12T07:15:17Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:15:17,885 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:17.883242Z' start='2023-08-11T07:15:17.883242Z' stale='2023-08-11T07:16:17.883242Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:18,885 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:18Z" time="2023-08-11T07:15:18Z" stale="2023-08-12T07:15:18Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:15:18,922 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:18.921943Z' start='2023-08-11T07:15:18.921943Z' stale='2023-08-11T07:16:18.921943Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:19,925 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:19Z" time="2023-08-11T07:15:19Z" stale="2023-08-12T07:15:19Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:15:19,959 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:19.958994Z' start='2023-08-11T07:15:19.958994Z' stale='2023-08-11T07:16:19.958994Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:20,960 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:20Z" time="2023-08-11T07:15:20Z" stale="2023-08-12T07:15:20Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:15:20,997 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:20.995136Z' start='2023-08-11T07:15:20.995136Z' stale='2023-08-11T07:16:20.995136Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:21,998 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:21Z" time="2023-08-11T07:15:21Z" stale="2023-08-12T07:15:21Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:15:22,029 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:22.028955Z' start='2023-08-11T07:15:22.028955Z' stale='2023-08-11T07:16:22.028955Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:23,032 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:23Z" time="2023-08-11T07:15:23Z" stale="2023-08-12T07:15:23Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:15:23,062 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:23.061628Z' start='2023-08-11T07:15:23.061628Z' stale='2023-08-11T07:16:23.061628Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:24,064 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:24Z" time="2023-08-11T07:15:24Z" stale="2023-08-12T07:15:24Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:15:24,105 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:24.104395Z' start='2023-08-11T07:15:24.104395Z' stale='2023-08-11T07:16:24.104395Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:25,107 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:25Z" time="2023-08-11T07:15:25Z" stale="2023-08-12T07:15:25Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:15:25,144 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:25.143340Z' start='2023-08-11T07:15:25.143340Z' stale='2023-08-11T07:16:25.143340Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:26,144 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:26Z" time="2023-08-11T07:15:26Z" stale="2023-08-12T07:15:26Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:15:26,184 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:26.183298Z' start='2023-08-11T07:15:26.183298Z' stale='2023-08-11T07:16:26.183298Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:27,186 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:27Z" time="2023-08-11T07:15:27Z" stale="2023-08-12T07:15:27Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:15:27,220 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:27.218382Z' start='2023-08-11T07:15:27.218382Z' stale='2023-08-11T07:16:27.218382Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:28,221 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:28Z" time="2023-08-11T07:15:28Z" stale="2023-08-12T07:15:28Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:15:28,250 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:28.249778Z' start='2023-08-11T07:15:28.249778Z' stale='2023-08-11T07:16:28.249778Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:29,250 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:29Z" time="2023-08-11T07:15:29Z" stale="2023-08-12T07:15:29Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:15:29,282 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:29.281367Z' start='2023-08-11T07:15:29.281367Z' stale='2023-08-11T07:16:29.281367Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:30,283 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:30Z" time="2023-08-11T07:15:30Z" stale="2023-08-12T07:15:30Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:15:30,317 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:30.316601Z' start='2023-08-11T07:15:30.316601Z' stale='2023-08-11T07:16:30.316601Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:31,318 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:31Z" time="2023-08-11T07:15:31Z" stale="2023-08-12T07:15:31Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:15:31,347 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:31.346717Z' start='2023-08-11T07:15:31.346717Z' stale='2023-08-11T07:16:31.347221Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:32,350 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:32Z" time="2023-08-11T07:15:32Z" stale="2023-08-12T07:15:32Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:15:32,387 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:32.386443Z' start='2023-08-11T07:15:32.386443Z' stale='2023-08-11T07:16:32.386443Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:33,390 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:33Z" time="2023-08-11T07:15:33Z" stale="2023-08-12T07:15:33Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:15:33,420 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:33.418581Z' start='2023-08-11T07:15:33.418581Z' stale='2023-08-11T07:16:33.418581Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:34,421 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:34Z" time="2023-08-11T07:15:34Z" stale="2023-08-12T07:15:34Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:15:34,453 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:34.452112Z' start='2023-08-11T07:15:34.452112Z' stale='2023-08-11T07:16:34.452112Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:35,453 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:35Z" time="2023-08-11T07:15:35Z" stale="2023-08-12T07:15:35Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:15:36,485 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:36Z" time="2023-08-11T07:15:36Z" stale="2023-08-12T07:15:36Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:15:37,513 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:37Z" time="2023-08-11T07:15:37Z" stale="2023-08-12T07:15:37Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:15:37,550 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:37.548639Z' start='2023-08-11T07:15:37.548639Z' stale='2023-08-11T07:16:37.548639Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:38,550 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:38Z" time="2023-08-11T07:15:38Z" stale="2023-08-12T07:15:38Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:15:38,590 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:38.588141Z' start='2023-08-11T07:15:38.588141Z' stale='2023-08-11T07:16:38.588141Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:39,591 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:39Z" time="2023-08-11T07:15:39Z" stale="2023-08-12T07:15:39Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:15:40,629 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:40Z" time="2023-08-11T07:15:40Z" stale="2023-08-12T07:15:40Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:15:41,661 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:41Z" time="2023-08-11T07:15:41Z" stale="2023-08-12T07:15:41Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:15:42,687 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:42Z" time="2023-08-11T07:15:42Z" stale="2023-08-12T07:15:42Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:15:42,716 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:42.715687Z' start='2023-08-11T07:15:42.715687Z' stale='2023-08-11T07:16:42.715687Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:43,717 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:43Z" time="2023-08-11T07:15:43Z" stale="2023-08-12T07:15:43Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:15:43,745 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:43.743403Z' start='2023-08-11T07:15:43.743403Z' stale='2023-08-11T07:16:43.743403Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:44,746 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:44Z" time="2023-08-11T07:15:44Z" stale="2023-08-12T07:15:44Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:15:44,779 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:44.778844Z' start='2023-08-11T07:15:44.778844Z' stale='2023-08-11T07:16:44.778844Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:45,780 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:45Z" time="2023-08-11T07:15:45Z" stale="2023-08-12T07:15:45Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:15:45,808 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:45.807550Z' start='2023-08-11T07:15:45.807550Z' stale='2023-08-11T07:16:45.807550Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:46,809 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:46Z" time="2023-08-11T07:15:46Z" stale="2023-08-12T07:15:46Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:15:46,838 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:46.837497Z' start='2023-08-11T07:15:46.837497Z' stale='2023-08-11T07:16:46.837497Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:47,838 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:47Z" time="2023-08-11T07:15:47Z" stale="2023-08-12T07:15:47Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:15:47,869 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:47.868453Z' start='2023-08-11T07:15:47.868453Z' stale='2023-08-11T07:16:47.868453Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:48,869 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:48Z" time="2023-08-11T07:15:48Z" stale="2023-08-12T07:15:48Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:15:48,901 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:48.900029Z' start='2023-08-11T07:15:48.900029Z' stale='2023-08-11T07:16:48.900029Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:49,902 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:49Z" time="2023-08-11T07:15:49Z" stale="2023-08-12T07:15:49Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:15:49,938 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:49.937668Z' start='2023-08-11T07:15:49.937668Z' stale='2023-08-11T07:16:49.937668Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:50,939 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:50Z" time="2023-08-11T07:15:50Z" stale="2023-08-12T07:15:50Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:15:50,968 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:50.967557Z' start='2023-08-11T07:15:50.967557Z' stale='2023-08-11T07:16:50.967557Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:51,968 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:51Z" time="2023-08-11T07:15:51Z" stale="2023-08-12T07:15:51Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:15:51,996 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:51.995605Z' start='2023-08-11T07:15:51.995605Z' stale='2023-08-11T07:16:51.995605Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:52,998 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:52Z" time="2023-08-11T07:15:52Z" stale="2023-08-12T07:15:52Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:15:53,033 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:53.032806Z' start='2023-08-11T07:15:53.032806Z' stale='2023-08-11T07:16:53.032806Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:54,034 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:54Z" time="2023-08-11T07:15:54Z" stale="2023-08-12T07:15:54Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:15:54,060 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:54.059502Z' start='2023-08-11T07:15:54.059502Z' stale='2023-08-11T07:16:54.059502Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:55,061 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:55Z" time="2023-08-11T07:15:55Z" stale="2023-08-12T07:15:55Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:15:55,092 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:55.091258Z' start='2023-08-11T07:15:55.091258Z' stale='2023-08-11T07:16:55.091258Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:56,093 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:56Z" time="2023-08-11T07:15:56Z" stale="2023-08-12T07:15:56Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:15:56,127 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:56.126737Z' start='2023-08-11T07:15:56.126737Z' stale='2023-08-11T07:16:56.126737Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:57,129 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:57Z" time="2023-08-11T07:15:57Z" stale="2023-08-12T07:15:57Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:15:57,165 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:57.163119Z' start='2023-08-11T07:15:57.163119Z' stale='2023-08-11T07:16:57.163119Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:58,165 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:58Z" time="2023-08-11T07:15:58Z" stale="2023-08-12T07:15:58Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:15:58,192 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:58.190936Z' start='2023-08-11T07:15:58.190936Z' stale='2023-08-11T07:16:58.190936Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:15:59,192 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:15:59Z" time="2023-08-11T07:15:59Z" stale="2023-08-12T07:15:59Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:15:59,227 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:15:59.226654Z' start='2023-08-11T07:15:59.226654Z' stale='2023-08-11T07:16:59.226654Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:00,230 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:16:00Z" time="2023-08-11T07:16:00Z" stale="2023-08-12T07:16:00Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:16:00,257 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:00.256534Z' start='2023-08-11T07:16:00.256534Z' stale='2023-08-11T07:17:00.256534Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:00,258 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:00.258745Z' start='2023-08-11T07:16:00.258745Z' stale='2023-08-11T07:17:00.258745Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:01,321 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:16:01Z" time="2023-08-11T07:16:01Z" stale="2023-08-12T07:16:01Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:16:01,379 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:01.378136Z' start='2023-08-11T07:16:01.378136Z' stale='2023-08-11T07:17:01.378136Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:01,381 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:01.380638Z' start='2023-08-11T07:16:01.380638Z' stale='2023-08-11T07:17:01.380638Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:02,382 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:16:02Z" time="2023-08-11T07:16:02Z" stale="2023-08-12T07:16:02Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:16:02,422 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:02.419927Z' start='2023-08-11T07:16:02.419927Z' stale='2023-08-11T07:17:02.420952Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:02,424 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:02.423258Z' start='2023-08-11T07:16:02.423258Z' stale='2023-08-11T07:17:02.423258Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:03,424 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:16:03Z" time="2023-08-11T07:16:03Z" stale="2023-08-12T07:16:03Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:16:03,460 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:03.458865Z' start='2023-08-11T07:16:03.458865Z' stale='2023-08-11T07:17:03.458865Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:16:03,462 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:16:03.461613Z' start='2023-08-11T07:16:03.461613Z' stale='2023-08-11T07:17:03.461613Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:06,033 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-11 00:19:14,437 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:14Z" time="2023-08-11T07:19:14Z" stale="2023-08-12T07:19:14Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:19:16,240 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:16Z" time="2023-08-11T07:19:16Z" stale="2023-08-12T07:19:16Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:19:16,317 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:16.316716Z' start='2023-08-11T07:19:16.316716Z' stale='2023-08-11T07:20:16.317223Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:17,318 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:17Z" time="2023-08-11T07:19:17Z" stale="2023-08-12T07:19:17Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:19:17,347 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:17.346483Z' start='2023-08-11T07:19:17.346483Z' stale='2023-08-11T07:20:17.346483Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:18,348 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:18Z" time="2023-08-11T07:19:18Z" stale="2023-08-12T07:19:18Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:19:18,376 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:18.375730Z' start='2023-08-11T07:19:18.375730Z' stale='2023-08-11T07:20:18.375730Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:19,378 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:19Z" time="2023-08-11T07:19:19Z" stale="2023-08-12T07:19:19Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:19:19,407 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:19.405553Z' start='2023-08-11T07:19:19.405553Z' stale='2023-08-11T07:20:19.405553Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:20,407 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:20Z" time="2023-08-11T07:19:20Z" stale="2023-08-12T07:19:20Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:19:20,439 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:20.438416Z' start='2023-08-11T07:19:20.438416Z' stale='2023-08-11T07:20:20.438416Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:21,440 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:21Z" time="2023-08-11T07:19:21Z" stale="2023-08-12T07:19:21Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:19:21,472 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:21.471576Z' start='2023-08-11T07:19:21.471576Z' stale='2023-08-11T07:20:21.471576Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:22,472 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:22Z" time="2023-08-11T07:19:22Z" stale="2023-08-12T07:19:22Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:19:22,500 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:22.498615Z' start='2023-08-11T07:19:22.498615Z' stale='2023-08-11T07:20:22.498615Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:23,501 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:23Z" time="2023-08-11T07:19:23Z" stale="2023-08-12T07:19:23Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:19:23,528 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:23.527555Z' start='2023-08-11T07:19:23.527555Z' stale='2023-08-11T07:20:23.527555Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:24,528 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:24Z" time="2023-08-11T07:19:24Z" stale="2023-08-12T07:19:24Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:19:24,557 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:24.556426Z' start='2023-08-11T07:19:24.556426Z' stale='2023-08-11T07:20:24.556426Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:25,557 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:25Z" time="2023-08-11T07:19:25Z" stale="2023-08-12T07:19:25Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:19:25,583 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:25.582818Z' start='2023-08-11T07:19:25.582818Z' stale='2023-08-11T07:20:25.582818Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:26,585 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:26Z" time="2023-08-11T07:19:26Z" stale="2023-08-12T07:19:26Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:19:26,617 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:26.616556Z' start='2023-08-11T07:19:26.616556Z' stale='2023-08-11T07:20:26.616556Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:27,618 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:27Z" time="2023-08-11T07:19:27Z" stale="2023-08-12T07:19:27Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:19:27,649 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:27.648776Z' start='2023-08-11T07:19:27.648776Z' stale='2023-08-11T07:20:27.648776Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:28,651 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:28Z" time="2023-08-11T07:19:28Z" stale="2023-08-12T07:19:28Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:19:28,688 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:28.687688Z' start='2023-08-11T07:19:28.687688Z' stale='2023-08-11T07:20:28.687688Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:29,690 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:29Z" time="2023-08-11T07:19:29Z" stale="2023-08-12T07:19:29Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:19:29,720 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:29.720036Z' start='2023-08-11T07:19:29.720036Z' stale='2023-08-11T07:20:29.720036Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:30,722 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:30Z" time="2023-08-11T07:19:30Z" stale="2023-08-12T07:19:30Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:19:30,753 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:30.752376Z' start='2023-08-11T07:19:30.752376Z' stale='2023-08-11T07:20:30.752376Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:31,754 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:31Z" time="2023-08-11T07:19:31Z" stale="2023-08-12T07:19:31Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:19:31,781 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:31.779837Z' start='2023-08-11T07:19:31.779837Z' stale='2023-08-11T07:20:31.779837Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:32,782 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:32Z" time="2023-08-11T07:19:32Z" stale="2023-08-12T07:19:32Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:19:32,816 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:32.814332Z' start='2023-08-11T07:19:32.814332Z' stale='2023-08-11T07:20:32.814332Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:33,817 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:33Z" time="2023-08-11T07:19:33Z" stale="2023-08-12T07:19:33Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:19:33,850 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:33.849970Z' start='2023-08-11T07:19:33.849970Z' stale='2023-08-11T07:20:33.849970Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:34,851 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:34Z" time="2023-08-11T07:19:34Z" stale="2023-08-12T07:19:34Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:19:34,887 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:34.886412Z' start='2023-08-11T07:19:34.886412Z' stale='2023-08-11T07:20:34.886412Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:35,887 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:35Z" time="2023-08-11T07:19:35Z" stale="2023-08-12T07:19:35Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:19:35,917 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:35.916708Z' start='2023-08-11T07:19:35.916708Z' stale='2023-08-11T07:20:35.916708Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:36,918 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:36Z" time="2023-08-11T07:19:36Z" stale="2023-08-12T07:19:36Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:19:36,956 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:36.954411Z' start='2023-08-11T07:19:36.954411Z' stale='2023-08-11T07:20:36.954411Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:37,956 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:37Z" time="2023-08-11T07:19:37Z" stale="2023-08-12T07:19:37Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:19:37,994 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:37.993634Z' start='2023-08-11T07:19:37.993634Z' stale='2023-08-11T07:20:37.993634Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:38,994 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:38Z" time="2023-08-11T07:19:38Z" stale="2023-08-12T07:19:38Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:19:39,025 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:39.024746Z' start='2023-08-11T07:19:39.024746Z' stale='2023-08-11T07:20:39.024746Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:40,027 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:40Z" time="2023-08-11T07:19:40Z" stale="2023-08-12T07:19:40Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:19:40,062 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:40.061027Z' start='2023-08-11T07:19:40.061027Z' stale='2023-08-11T07:20:40.061027Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:41,062 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:41Z" time="2023-08-11T07:19:41Z" stale="2023-08-12T07:19:41Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:19:41,096 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:41.095583Z' start='2023-08-11T07:19:41.095583Z' stale='2023-08-11T07:20:41.095583Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:42,097 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:42Z" time="2023-08-11T07:19:42Z" stale="2023-08-12T07:19:42Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:19:42,139 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:42.138352Z' start='2023-08-11T07:19:42.138352Z' stale='2023-08-11T07:20:42.138352Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:43,141 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:43Z" time="2023-08-11T07:19:43Z" stale="2023-08-12T07:19:43Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:19:43,172 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:43.171183Z' start='2023-08-11T07:19:43.171183Z' stale='2023-08-11T07:20:43.171183Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:44,172 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:44Z" time="2023-08-11T07:19:44Z" stale="2023-08-12T07:19:44Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:19:44,206 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:44.205415Z' start='2023-08-11T07:19:44.205415Z' stale='2023-08-11T07:20:44.205415Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:45,208 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:45Z" time="2023-08-11T07:19:45Z" stale="2023-08-12T07:19:45Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:19:45,238 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:45.238566Z' start='2023-08-11T07:19:45.238566Z' stale='2023-08-11T07:20:45.238566Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:46,240 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:46Z" time="2023-08-11T07:19:46Z" stale="2023-08-12T07:19:46Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:19:46,273 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:46.272910Z' start='2023-08-11T07:19:46.272910Z' stale='2023-08-11T07:20:46.272910Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:47,274 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:47Z" time="2023-08-11T07:19:47Z" stale="2023-08-12T07:19:47Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:19:47,308 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:47.307343Z' start='2023-08-11T07:19:47.307343Z' stale='2023-08-11T07:20:47.307343Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:48,308 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:48Z" time="2023-08-11T07:19:48Z" stale="2023-08-12T07:19:48Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:19:48,341 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:48.340113Z' start='2023-08-11T07:19:48.340113Z' stale='2023-08-11T07:20:48.340113Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:49,342 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:49Z" time="2023-08-11T07:19:49Z" stale="2023-08-12T07:19:49Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:19:49,370 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:49.368606Z' start='2023-08-11T07:19:49.368606Z' stale='2023-08-11T07:20:49.368606Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:50,370 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:50Z" time="2023-08-11T07:19:50Z" stale="2023-08-12T07:19:50Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:19:50,405 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:50.404275Z' start='2023-08-11T07:19:50.404275Z' stale='2023-08-11T07:20:50.404275Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:51,406 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:51Z" time="2023-08-11T07:19:51Z" stale="2023-08-12T07:19:51Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:19:51,438 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:51.437275Z' start='2023-08-11T07:19:51.437275Z' stale='2023-08-11T07:20:51.438284Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:52,439 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:52Z" time="2023-08-11T07:19:52Z" stale="2023-08-12T07:19:52Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:19:52,476 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:52.474703Z' start='2023-08-11T07:19:52.474703Z' stale='2023-08-11T07:20:52.474703Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:53,478 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:53Z" time="2023-08-11T07:19:53Z" stale="2023-08-12T07:19:53Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:19:53,503 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:53.503370Z' start='2023-08-11T07:19:53.503370Z' stale='2023-08-11T07:20:53.503370Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:54,505 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:19:54Z" time="2023-08-11T07:19:54Z" stale="2023-08-12T07:19:54Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:19:54,534 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:19:54.533060Z' start='2023-08-11T07:19:54.533060Z' stale='2023-08-11T07:20:54.533060Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:19:58,043 - INFO - Session Started - UID: ELECTRISTAR, GROUP: 239.2.3.1, PORT: 6969, MOCK: True, IMAGES: True
+2023-08-11 00:20:07,927 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:07Z" time="2023-08-11T07:20:07Z" stale="2023-08-12T07:20:07Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:20:09,710 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:09Z" time="2023-08-11T07:20:09Z" stale="2023-08-12T07:20:09Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:20:09,744 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:09.743985Z' start='2023-08-11T07:20:09.743985Z' stale='2023-08-11T07:21:09.744981Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:10,745 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:10Z" time="2023-08-11T07:20:10Z" stale="2023-08-12T07:20:10Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:20:10,790 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:10.789820Z' start='2023-08-11T07:20:10.789820Z' stale='2023-08-11T07:21:10.789820Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:11,792 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:11Z" time="2023-08-11T07:20:11Z" stale="2023-08-12T07:20:11Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:20:11,823 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:11.822176Z' start='2023-08-11T07:20:11.822176Z' stale='2023-08-11T07:21:11.822176Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:12,825 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:12Z" time="2023-08-11T07:20:12Z" stale="2023-08-12T07:20:12Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:20:12,850 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:12.848593Z' start='2023-08-11T07:20:12.848593Z' stale='2023-08-11T07:21:12.848593Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:13,850 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:13Z" time="2023-08-11T07:20:13Z" stale="2023-08-12T07:20:13Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:20:13,877 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:13.875782Z' start='2023-08-11T07:20:13.875782Z' stale='2023-08-11T07:21:13.875782Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:14,877 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:14Z" time="2023-08-11T07:20:14Z" stale="2023-08-12T07:20:14Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:20:14,914 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:14.913417Z' start='2023-08-11T07:20:14.913417Z' stale='2023-08-11T07:21:14.913417Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:15,914 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:15Z" time="2023-08-11T07:20:15Z" stale="2023-08-12T07:20:15Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:20:15,942 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:15.941325Z' start='2023-08-11T07:20:15.941325Z' stale='2023-08-11T07:21:15.941325Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:16,944 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:16Z" time="2023-08-11T07:20:16Z" stale="2023-08-12T07:20:16Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:20:16,980 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:16.979821Z' start='2023-08-11T07:20:16.979821Z' stale='2023-08-11T07:21:16.979821Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:17,980 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:17Z" time="2023-08-11T07:20:17Z" stale="2023-08-12T07:20:17Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:20:18,010 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:18.008805Z' start='2023-08-11T07:20:18.008805Z' stale='2023-08-11T07:21:18.008805Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:19,011 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:19Z" time="2023-08-11T07:20:19Z" stale="2023-08-12T07:20:19Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:20:19,044 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:19.043852Z' start='2023-08-11T07:20:19.043852Z' stale='2023-08-11T07:21:19.043852Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:20,046 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:20Z" time="2023-08-11T07:20:20Z" stale="2023-08-12T07:20:20Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:20:20,073 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:20.072313Z' start='2023-08-11T07:20:20.072313Z' stale='2023-08-11T07:21:20.072313Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:21,074 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:21Z" time="2023-08-11T07:20:21Z" stale="2023-08-12T07:20:21Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:20:21,110 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:21.108618Z' start='2023-08-11T07:20:21.108618Z' stale='2023-08-11T07:21:21.108618Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:22,110 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:22Z" time="2023-08-11T07:20:22Z" stale="2023-08-12T07:20:22Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:20:22,158 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:22.157443Z' start='2023-08-11T07:20:22.157443Z' stale='2023-08-11T07:21:22.157443Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:23,158 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:23Z" time="2023-08-11T07:20:23Z" stale="2023-08-12T07:20:23Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:20:23,201 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:23.200059Z' start='2023-08-11T07:20:23.200059Z' stale='2023-08-11T07:21:23.200059Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:24,202 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:24Z" time="2023-08-11T07:20:24Z" stale="2023-08-12T07:20:24Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:20:24,244 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:24.242728Z' start='2023-08-11T07:20:24.242728Z' stale='2023-08-11T07:21:24.242728Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:25,244 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:25Z" time="2023-08-11T07:20:25Z" stale="2023-08-12T07:20:25Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:20:25,271 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:25.270464Z' start='2023-08-11T07:20:25.270464Z' stale='2023-08-11T07:21:25.270464Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:26,272 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:26Z" time="2023-08-11T07:20:26Z" stale="2023-08-12T07:20:26Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:20:26,300 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:26.299104Z' start='2023-08-11T07:20:26.299104Z' stale='2023-08-11T07:21:26.299104Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:27,300 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:27Z" time="2023-08-11T07:20:27Z" stale="2023-08-12T07:20:27Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:20:27,329 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:27.328846Z' start='2023-08-11T07:20:27.328846Z' stale='2023-08-11T07:21:27.328846Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:28,332 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:28Z" time="2023-08-11T07:20:28Z" stale="2023-08-12T07:20:28Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:20:28,360 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:28.358642Z' start='2023-08-11T07:20:28.358642Z' stale='2023-08-11T07:21:28.358642Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:29,360 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:29Z" time="2023-08-11T07:20:29Z" stale="2023-08-12T07:20:29Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:20:29,388 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:29.388695Z' start='2023-08-11T07:20:29.388695Z' stale='2023-08-11T07:21:29.388695Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:30,389 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:30Z" time="2023-08-11T07:20:30Z" stale="2023-08-12T07:20:30Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:20:30,428 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:30.427404Z' start='2023-08-11T07:20:30.427404Z' stale='2023-08-11T07:21:30.427404Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:31,428 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:31Z" time="2023-08-11T07:20:31Z" stale="2023-08-12T07:20:31Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:20:31,458 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:31.457397Z' start='2023-08-11T07:20:31.457397Z' stale='2023-08-11T07:21:31.457397Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:32,458 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:32Z" time="2023-08-11T07:20:32Z" stale="2023-08-12T07:20:32Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:20:32,497 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:32.496423Z' start='2023-08-11T07:20:32.496423Z' stale='2023-08-11T07:21:32.496423Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:33,497 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:33Z" time="2023-08-11T07:20:33Z" stale="2023-08-12T07:20:33Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:20:33,525 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:33.525282Z' start='2023-08-11T07:20:33.525282Z' stale='2023-08-11T07:21:33.525282Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:34,525 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:34Z" time="2023-08-11T07:20:34Z" stale="2023-08-12T07:20:34Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:20:34,560 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:34.559768Z' start='2023-08-11T07:20:34.559768Z' stale='2023-08-11T07:21:34.559768Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:35,562 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:35Z" time="2023-08-11T07:20:35Z" stale="2023-08-12T07:20:35Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:20:35,599 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:35.598268Z' start='2023-08-11T07:20:35.598268Z' stale='2023-08-11T07:21:35.598268Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:36,599 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:36Z" time="2023-08-11T07:20:36Z" stale="2023-08-12T07:20:36Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:20:36,636 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:36.635346Z' start='2023-08-11T07:20:36.635346Z' stale='2023-08-11T07:21:36.635346Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:37,636 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:37Z" time="2023-08-11T07:20:37Z" stale="2023-08-12T07:20:37Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:20:37,674 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:37.672280Z' start='2023-08-11T07:20:37.672280Z' stale='2023-08-11T07:21:37.672280Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:38,674 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:38Z" time="2023-08-11T07:20:38Z" stale="2023-08-12T07:20:38Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:20:38,734 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:38.732157Z' start='2023-08-11T07:20:38.732157Z' stale='2023-08-11T07:21:38.733159Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:39,735 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:39Z" time="2023-08-11T07:20:39Z" stale="2023-08-12T07:20:39Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:20:39,785 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:39.784048Z' start='2023-08-11T07:20:39.784048Z' stale='2023-08-11T07:21:39.784048Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:40,787 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:40Z" time="2023-08-11T07:20:40Z" stale="2023-08-12T07:20:40Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:20:40,816 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:40.815639Z' start='2023-08-11T07:20:40.815639Z' stale='2023-08-11T07:21:40.815639Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:41,817 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:41Z" time="2023-08-11T07:20:41Z" stale="2023-08-12T07:20:41Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:20:41,853 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:41.852620Z' start='2023-08-11T07:20:41.852620Z' stale='2023-08-11T07:21:41.852620Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:42,853 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:42Z" time="2023-08-11T07:20:42Z" stale="2023-08-12T07:20:42Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:20:42,882 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:42.880978Z' start='2023-08-11T07:20:42.880978Z' stale='2023-08-11T07:21:42.880978Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:43,883 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:43Z" time="2023-08-11T07:20:43Z" stale="2023-08-12T07:20:43Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:20:43,913 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:43.912344Z' start='2023-08-11T07:20:43.912344Z' stale='2023-08-11T07:21:43.912344Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:44,913 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:44Z" time="2023-08-11T07:20:44Z" stale="2023-08-12T07:20:44Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:20:44,941 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:44.940005Z' start='2023-08-11T07:20:44.940005Z' stale='2023-08-11T07:21:44.940005Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:45,942 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:45Z" time="2023-08-11T07:20:45Z" stale="2023-08-12T07:20:45Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:20:45,974 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:45.973627Z' start='2023-08-11T07:20:45.973627Z' stale='2023-08-11T07:21:45.973627Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:46,975 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:46Z" time="2023-08-11T07:20:46Z" stale="2023-08-12T07:20:46Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:20:47,003 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:47.002080Z' start='2023-08-11T07:20:47.002080Z' stale='2023-08-11T07:21:47.002080Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:48,005 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:48Z" time="2023-08-11T07:20:48Z" stale="2023-08-12T07:20:48Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:20:48,038 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:48.037356Z' start='2023-08-11T07:20:48.037356Z' stale='2023-08-11T07:21:48.037356Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:49,038 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:49Z" time="2023-08-11T07:20:49Z" stale="2023-08-12T07:20:49Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:20:49,075 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:49.074755Z' start='2023-08-11T07:20:49.074755Z' stale='2023-08-11T07:21:49.074755Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:50,076 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:50Z" time="2023-08-11T07:20:50Z" stale="2023-08-12T07:20:50Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:20:50,116 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:50.115388Z' start='2023-08-11T07:20:50.115388Z' stale='2023-08-11T07:21:50.115388Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:51,116 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:51Z" time="2023-08-11T07:20:51Z" stale="2023-08-12T07:20:51Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:20:51,158 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:51.157666Z' start='2023-08-11T07:20:51.157666Z' stale='2023-08-11T07:21:51.157666Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:52,159 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:52Z" time="2023-08-11T07:20:52Z" stale="2023-08-12T07:20:52Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:20:52,188 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:52.187537Z' start='2023-08-11T07:20:52.187537Z' stale='2023-08-11T07:21:52.187537Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:53,188 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:53Z" time="2023-08-11T07:20:53Z" stale="2023-08-12T07:20:53Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:20:53,219 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:53.218144Z' start='2023-08-11T07:20:53.218144Z' stale='2023-08-11T07:21:53.218144Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:54,219 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:54Z" time="2023-08-11T07:20:54Z" stale="2023-08-12T07:20:54Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:20:54,254 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:54.252490Z' start='2023-08-11T07:20:54.252490Z' stale='2023-08-11T07:21:54.253483Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:55,255 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:55Z" time="2023-08-11T07:20:55Z" stale="2023-08-12T07:20:55Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:20:55,285 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:55.284107Z' start='2023-08-11T07:20:55.284107Z' stale='2023-08-11T07:21:55.284107Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:56,285 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:56Z" time="2023-08-11T07:20:56Z" stale="2023-08-12T07:20:56Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:20:56,315 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:56.314033Z' start='2023-08-11T07:20:56.314033Z' stale='2023-08-11T07:21:56.314033Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:57,315 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:57Z" time="2023-08-11T07:20:57Z" stale="2023-08-12T07:20:57Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:20:57,346 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:57.345474Z' start='2023-08-11T07:20:57.345474Z' stale='2023-08-11T07:21:57.345474Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:58,348 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:58Z" time="2023-08-11T07:20:58Z" stale="2023-08-12T07:20:58Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:20:58,378 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:58.376865Z' start='2023-08-11T07:20:58.376865Z' stale='2023-08-11T07:21:58.376865Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:20:59,378 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:20:59Z" time="2023-08-11T07:20:59Z" stale="2023-08-12T07:20:59Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:20:59,416 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:20:59.415217Z' start='2023-08-11T07:20:59.415217Z' stale='2023-08-11T07:21:59.415217Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:00,417 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:00Z" time="2023-08-11T07:21:00Z" stale="2023-08-12T07:21:00Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:21:00,444 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:00.443882Z' start='2023-08-11T07:21:00.443882Z' stale='2023-08-11T07:22:00.443882Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:01,445 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:01Z" time="2023-08-11T07:21:01Z" stale="2023-08-12T07:21:01Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:21:01,485 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:01.484611Z' start='2023-08-11T07:21:01.484611Z' stale='2023-08-11T07:22:01.484611Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:02,486 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:02Z" time="2023-08-11T07:21:02Z" stale="2023-08-12T07:21:02Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:21:02,518 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:02.517410Z' start='2023-08-11T07:21:02.517410Z' stale='2023-08-11T07:22:02.517410Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:03,519 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:03Z" time="2023-08-11T07:21:03Z" stale="2023-08-12T07:21:03Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:21:03,551 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:03.549695Z' start='2023-08-11T07:21:03.549695Z' stale='2023-08-11T07:22:03.549695Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:04,551 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:04Z" time="2023-08-11T07:21:04Z" stale="2023-08-12T07:21:04Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:21:04,588 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:04.588351Z' start='2023-08-11T07:21:04.588351Z' stale='2023-08-11T07:22:04.588351Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:05,590 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:05Z" time="2023-08-11T07:21:05Z" stale="2023-08-12T07:21:05Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:21:05,619 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:05.618670Z' start='2023-08-11T07:21:05.618670Z' stale='2023-08-11T07:22:05.618670Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:06,620 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:06Z" time="2023-08-11T07:21:06Z" stale="2023-08-12T07:21:06Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:21:06,654 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:06.652328Z' start='2023-08-11T07:21:06.652328Z' stale='2023-08-11T07:22:06.652328Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:07,655 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:07Z" time="2023-08-11T07:21:07Z" stale="2023-08-12T07:21:07Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:21:07,687 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:07.686501Z' start='2023-08-11T07:21:07.686501Z' stale='2023-08-11T07:22:07.686501Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:08,689 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:08Z" time="2023-08-11T07:21:08Z" stale="2023-08-12T07:21:08Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:21:08,721 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:08.721550Z' start='2023-08-11T07:21:08.721550Z' stale='2023-08-11T07:22:08.721550Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:09,723 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:09Z" time="2023-08-11T07:21:09Z" stale="2023-08-12T07:21:09Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:21:09,770 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:09.769820Z' start='2023-08-11T07:21:09.769820Z' stale='2023-08-11T07:22:09.769820Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:10,773 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:10Z" time="2023-08-11T07:21:10Z" stale="2023-08-12T07:21:10Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:21:10,805 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:10.803138Z' start='2023-08-11T07:21:10.803138Z' stale='2023-08-11T07:22:10.803138Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:11,806 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:11Z" time="2023-08-11T07:21:11Z" stale="2023-08-12T07:21:11Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:21:11,838 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:11.837293Z' start='2023-08-11T07:21:11.837293Z' stale='2023-08-11T07:22:11.837293Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:12,838 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:12Z" time="2023-08-11T07:21:12Z" stale="2023-08-12T07:21:12Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:21:12,869 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:12.868107Z' start='2023-08-11T07:21:12.868107Z' stale='2023-08-11T07:22:12.868107Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:13,869 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:13Z" time="2023-08-11T07:21:13Z" stale="2023-08-12T07:21:13Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:21:13,905 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:13.903457Z' start='2023-08-11T07:21:13.903457Z' stale='2023-08-11T07:22:13.903457Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:14,906 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:14Z" time="2023-08-11T07:21:14Z" stale="2023-08-12T07:21:14Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:21:14,934 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:14.933467Z' start='2023-08-11T07:21:14.933467Z' stale='2023-08-11T07:22:14.933467Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:15,937 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:15Z" time="2023-08-11T07:21:15Z" stale="2023-08-12T07:21:15Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:21:15,972 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:15.970273Z' start='2023-08-11T07:21:15.970273Z' stale='2023-08-11T07:22:15.970273Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:16,972 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:16Z" time="2023-08-11T07:21:16Z" stale="2023-08-12T07:21:16Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:21:17,003 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:17.002324Z' start='2023-08-11T07:21:17.002324Z' stale='2023-08-11T07:22:17.002324Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:18,004 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:18Z" time="2023-08-11T07:21:18Z" stale="2023-08-12T07:21:18Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:21:18,034 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:18.033247Z' start='2023-08-11T07:21:18.033247Z' stale='2023-08-11T07:22:18.033247Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:19,034 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:19Z" time="2023-08-11T07:21:19Z" stale="2023-08-12T07:21:19Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:21:19,068 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:19.067367Z' start='2023-08-11T07:21:19.067367Z' stale='2023-08-11T07:22:19.067367Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:20,068 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:20Z" time="2023-08-11T07:21:20Z" stale="2023-08-12T07:21:20Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:21:20,100 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:20.098741Z' start='2023-08-11T07:21:20.098741Z' stale='2023-08-11T07:22:20.098741Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:21,100 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:21Z" time="2023-08-11T07:21:21Z" stale="2023-08-12T07:21:21Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:21:21,133 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:21.132415Z' start='2023-08-11T07:21:21.132415Z' stale='2023-08-11T07:22:21.132415Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:22,134 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:22Z" time="2023-08-11T07:21:22Z" stale="2023-08-12T07:21:22Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:21:22,180 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:22.179674Z' start='2023-08-11T07:21:22.179674Z' stale='2023-08-11T07:22:22.179674Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:23,180 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:23Z" time="2023-08-11T07:21:23Z" stale="2023-08-12T07:21:23Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:21:23,214 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:23.212596Z' start='2023-08-11T07:21:23.212596Z' stale='2023-08-11T07:22:23.212596Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:24,215 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:24Z" time="2023-08-11T07:21:24Z" stale="2023-08-12T07:21:24Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:21:24,243 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:24.242910Z' start='2023-08-11T07:21:24.242910Z' stale='2023-08-11T07:22:24.242910Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:25,244 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:25Z" time="2023-08-11T07:21:25Z" stale="2023-08-12T07:21:25Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:21:25,274 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:25.273725Z' start='2023-08-11T07:21:25.273725Z' stale='2023-08-11T07:22:25.273725Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:26,275 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:26Z" time="2023-08-11T07:21:26Z" stale="2023-08-12T07:21:26Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:21:26,303 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:26.301598Z' start='2023-08-11T07:21:26.301598Z' stale='2023-08-11T07:22:26.301598Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:27,304 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:27Z" time="2023-08-11T07:21:27Z" stale="2023-08-12T07:21:27Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:21:27,334 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:27.333929Z' start='2023-08-11T07:21:27.333929Z' stale='2023-08-11T07:22:27.333929Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:28,334 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:28Z" time="2023-08-11T07:21:28Z" stale="2023-08-12T07:21:28Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:21:28,368 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:28.365760Z' start='2023-08-11T07:21:28.365760Z' stale='2023-08-11T07:22:28.365760Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:29,368 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:29Z" time="2023-08-11T07:21:29Z" stale="2023-08-12T07:21:29Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:21:29,401 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:29.400103Z' start='2023-08-11T07:21:29.400103Z' stale='2023-08-11T07:22:29.400103Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:30,401 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:30Z" time="2023-08-11T07:21:30Z" stale="2023-08-12T07:21:30Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:21:30,426 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:30.425081Z' start='2023-08-11T07:21:30.425081Z' stale='2023-08-11T07:22:30.425081Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:31,427 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:31Z" time="2023-08-11T07:21:31Z" stale="2023-08-12T07:21:31Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:21:31,459 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:31.458985Z' start='2023-08-11T07:21:31.458985Z' stale='2023-08-11T07:22:31.458985Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:32,460 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:32Z" time="2023-08-11T07:21:32Z" stale="2023-08-12T07:21:32Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:21:32,489 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:32.488355Z' start='2023-08-11T07:21:32.488355Z' stale='2023-08-11T07:22:32.488355Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:33,490 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:33Z" time="2023-08-11T07:21:33Z" stale="2023-08-12T07:21:33Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:21:33,517 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:33.516598Z' start='2023-08-11T07:21:33.516598Z' stale='2023-08-11T07:22:33.516598Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:34,518 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:34Z" time="2023-08-11T07:21:34Z" stale="2023-08-12T07:21:34Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:21:34,548 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:34.548524Z' start='2023-08-11T07:21:34.548524Z' stale='2023-08-11T07:22:34.548524Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:35,548 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:35Z" time="2023-08-11T07:21:35Z" stale="2023-08-12T07:21:35Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:21:35,578 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:35.577286Z' start='2023-08-11T07:21:35.577286Z' stale='2023-08-11T07:22:35.577286Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:36,578 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:36Z" time="2023-08-11T07:21:36Z" stale="2023-08-12T07:21:36Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:21:36,613 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:36.611489Z' start='2023-08-11T07:21:36.611489Z' stale='2023-08-11T07:22:36.611489Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:37,614 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:37Z" time="2023-08-11T07:21:37Z" stale="2023-08-12T07:21:37Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:21:37,645 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:37.643389Z' start='2023-08-11T07:21:37.643389Z' stale='2023-08-11T07:22:37.643389Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:38,647 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:38Z" time="2023-08-11T07:21:38Z" stale="2023-08-12T07:21:38Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:21:38,674 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:38.672608Z' start='2023-08-11T07:21:38.672608Z' stale='2023-08-11T07:22:38.672608Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:39,674 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:39Z" time="2023-08-11T07:21:39Z" stale="2023-08-12T07:21:39Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:21:39,704 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:39.703360Z' start='2023-08-11T07:21:39.703360Z' stale='2023-08-11T07:22:39.703360Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:40,704 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:40Z" time="2023-08-11T07:21:40Z" stale="2023-08-12T07:21:40Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:21:40,735 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:40.733424Z' start='2023-08-11T07:21:40.733424Z' stale='2023-08-11T07:22:40.733424Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:41,736 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:41Z" time="2023-08-11T07:21:41Z" stale="2023-08-12T07:21:41Z">
+        <point le="0" ce="0" hae="1000" lon="0" lat="0"/>
+    </event>
+2023-08-11 00:21:41,768 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:41.766593Z' start='2023-08-11T07:21:41.766593Z' stale='2023-08-11T07:22:41.766593Z' how='m-g'>
+    <point lat='0' lon='0' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:42,769 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:42Z" time="2023-08-11T07:21:42Z" stale="2023-08-12T07:21:42Z">
+        <point le="0" ce="0" hae="1000" lon="1" lat="1"/>
+    </event>
+2023-08-11 00:21:42,797 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:42.796698Z' start='2023-08-11T07:21:42.796698Z' stale='2023-08-11T07:22:42.796698Z' how='m-g'>
+    <point lat='1' lon='1' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:43,798 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:43Z" time="2023-08-11T07:21:43Z" stale="2023-08-12T07:21:43Z">
+        <point le="0" ce="0" hae="1000" lon="2" lat="2"/>
+    </event>
+2023-08-11 00:21:43,829 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:43.829603Z' start='2023-08-11T07:21:43.829603Z' stale='2023-08-11T07:22:43.829603Z' how='m-g'>
+    <point lat='2' lon='2' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:44,831 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:44Z" time="2023-08-11T07:21:44Z" stale="2023-08-12T07:21:44Z">
+        <point le="0" ce="0" hae="1000" lon="3" lat="3"/>
+    </event>
+2023-08-11 00:21:44,869 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:44.868402Z' start='2023-08-11T07:21:44.868402Z' stale='2023-08-11T07:22:44.868402Z' how='m-g'>
+    <point lat='3' lon='3' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:45,870 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:45Z" time="2023-08-11T07:21:45Z" stale="2023-08-12T07:21:45Z">
+        <point le="0" ce="0" hae="1000" lon="4" lat="4"/>
+    </event>
+2023-08-11 00:21:45,899 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:45.898533Z' start='2023-08-11T07:21:45.898533Z' stale='2023-08-11T07:22:45.898533Z' how='m-g'>
+    <point lat='4' lon='4' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:46,899 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:46Z" time="2023-08-11T07:21:46Z" stale="2023-08-12T07:21:46Z">
+        <point le="0" ce="0" hae="1000" lon="5" lat="5"/>
+    </event>
+2023-08-11 00:21:46,930 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:46.929624Z' start='2023-08-11T07:21:46.929624Z' stale='2023-08-11T07:22:46.929624Z' how='m-g'>
+    <point lat='5' lon='5' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:47,930 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:47Z" time="2023-08-11T07:21:47Z" stale="2023-08-12T07:21:47Z">
+        <point le="0" ce="0" hae="1000" lon="6" lat="6"/>
+    </event>
+2023-08-11 00:21:47,957 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:47.957706Z' start='2023-08-11T07:21:47.957706Z' stale='2023-08-11T07:22:47.957706Z' how='m-g'>
+    <point lat='6' lon='6' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:48,959 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:48Z" time="2023-08-11T07:21:48Z" stale="2023-08-12T07:21:48Z">
+        <point le="0" ce="0" hae="1000" lon="7" lat="7"/>
+    </event>
+2023-08-11 00:21:48,989 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:48.988734Z' start='2023-08-11T07:21:48.988734Z' stale='2023-08-11T07:22:48.989735Z' how='m-g'>
+    <point lat='7' lon='7' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:49,991 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:49Z" time="2023-08-11T07:21:49Z" stale="2023-08-12T07:21:49Z">
+        <point le="0" ce="0" hae="1000" lon="8" lat="8"/>
+    </event>
+2023-08-11 00:21:50,021 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:50.020253Z' start='2023-08-11T07:21:50.020253Z' stale='2023-08-11T07:22:50.020253Z' how='m-g'>
+    <point lat='8' lon='8' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
+2023-08-11 00:21:51,022 - INFO - <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+    <event uid="ELECTRISTAR" type="a-f-A-M-F-Q-H" how="" start="2023-08-11T07:21:51Z" time="2023-08-11T07:21:51Z" stale="2023-08-12T07:21:51Z">
+        <point le="0" ce="0" hae="1000" lon="9" lat="9"/>
+    </event>
+2023-08-11 00:21:51,054 - INFO - <event version='2.0' uid='Detected Person' type='a-h-G-U-C' time='2023-08-11T07:21:51.053912Z' start='2023-08-11T07:21:51.053912Z' stale='2023-08-11T07:22:51.053912Z' how='m-g'>
+    <point lat='9' lon='9' hae='1000' ce='9999999.0' le='9999999.0'/>
+    <detail>
+        <contact callsign='Detected Person'/>
+    </detail>
+</event>
