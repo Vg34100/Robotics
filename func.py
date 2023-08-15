@@ -204,3 +204,18 @@ def video_stream_server(cap):
     #     connection.sendall(message_size + data)
 
     server_socket.close()
+    
+def detectSetup():
+    import numpy as np
+    net = cv2.dnn.readNetFromCaffe('SSD_MobileNet_prototxt.txt', 'SSD_MobileNet.caffemodel')
+    CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
+    COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
+    return net, CLASSES, COLORS
+
+def captureSetup():
+    cap = cv2.VideoCapture(0)
+    if not cap.isOpened():
+        print("Error: Could not open camera.")
+        exit()
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    return cap, fps

@@ -5,7 +5,16 @@ import numpy as np
 
 import func
 
-#* UPDATE - 
+#? ------------------------------------------------------------------------------------------------------- #
+#? CSUB ROBOTICS: PI Flight - Real-time Person Detection Program - V0.2 ---------------------------------- #
+#? Enable image exporting (All [EXPORT_FRAMES] or Person [EXPORT_DETECTED]) and video recording [RECORD] - #
+#? Ability to view webcam through use of [receiver.py] (change IP) --------------------------------------- #
+#? Queues Frames to ensure each Frame is processed [FRAME_QUEUE] ----------------------------------------- #
+#? For more on functions used view [func.py] or to change config [config.yaml] --------------------------- #
+#? To stop, use KeyboardInterript (ctrl + c), which stops adding more frames and finished the queue ------ #
+#? ------------------------------------------------------------------------------------------------------- #
+
+#* UPDATE - V0.2
 #* - Can view webcame with use of receiver.py
 #* - Export frames 
 #* - Record video
@@ -35,7 +44,6 @@ stop_queue = False
 
 # Constants
 GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay = func.set_constants(CONFIG)
-
 logging.info(f"Session Started - UID: {UID}, GROUP: {GROUP}, PORT: {PORT}, MOCK: {MOCK}, IMAGES: {EXPORT_DETECTED}")
 
 # Create a UDP socket for sending CoT messages
@@ -43,32 +51,15 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
 sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 2)
 cot_last_sent = 0
 
-#! Mavlink
+
+#? Mavlink, Object Detection, and Capture Setup
 if not MOCK: mavlink, process = func.mavConnect()
-
-#! Object Detection Setup
-net = cv2.dnn.readNetFromCaffe('SSD_MobileNet_prototxt.txt', 'SSD_MobileNet.caffemodel')
-CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
-COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
-
-#! Start video capture
-cap = cv2.VideoCapture(0)
-fps = cap.get(cv2.CAP_PROP_FPS)
-
-
-# Verify if the camera opened successfully
-if not cap.isOpened():
-    print("Error: Could not open camera.")
-    exit()
+net, CLASSES, COLORS = func.detectSetup()
+cap, fps = func.captureSetup()
 
 #! View webcam
 video_stream_thread = threading.Thread(target=func.video_stream_server, args=(cap,))
 video_stream_thread.start()
-
-
-
-
-
 
 if RECORD:
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
@@ -78,12 +69,8 @@ def process_frame(frame, result):
     if EXPORT_FRAMES:
         filename = os.path.join(IMAGE_DIR, f"frame_{datetime.now().strftime('%Y%m%d_%H%M%S%f')}.jpg")
         cv2.imwrite(filename, frame)
-    if RECORD:
-        out.write(frame)
-    
-    
-    # Here, you would do your object detection and other processing
-    # ... [rest of the frame processing code]
+    if RECORD: out.write(frame)
+
     #!Perform object detection on the frame
     (h, w) = frame.shape[:2]
     blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
@@ -101,15 +88,9 @@ def process_frame(frame, result):
                 y = startY - 15 if startY - 15 > 15 else startY + 15
                 cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
     
-                #if not MOCK and EXPORT_DETECTED: func.save_image_person(mavlink, frame, IMAGE_DIR)
                 if EXPORT_DETECTED: func.save_image_person(result, frame, IMAGE_DIR)
-                #for result in func.gps_data(mavlink, MOCK): 
                 func.cot_person_detected(result, sock, GROUP, PORT)
     
-    
-    
-
-
 # This function will constantly try to get frames from the queue and process them
 def frame_processor():
     while not stop_queue or not FRAME_QUEUE.empty():
@@ -145,12 +126,9 @@ except KeyboardInterrupt:
     print("stopping_queue...")
 
 
-# Release video capture when done
+# Cleanup
 frame_processor_thread.join()
-if RECORD:
-    out.release()
-
-
+if RECORD: out.release()
 video_stream_thread.join()
 cot_basic.join()
 cap.release()
