@@ -1,8 +1,13 @@
-import time, socket, cv2, logging, yaml
+import time, socket, cv2, logging, yaml, threading, pickle, struct
 from datetime import datetime, timedelta
 import numpy as np
 
 import func
+
+#* UPDATE - Can view webcame with use of receiver.py
+#TODO - Export frames 
+#TODO - Record video
+#TODO - Frame queue
 
 # Set up the log
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s", filename="log.txt")
@@ -15,19 +20,17 @@ class Configuration:
         return self.config.get(option)
 CONFIG = Configuration()  
 
+# Adjust
+MOCK = True
+EXPORT_DETECTED = True
+
+
+
 
 # Constants
-GROUP = "239.2.3.1"
-PORT = 6969
+GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay = func.set_constants(CONFIG)
 
-MOCK = True
-EXPORT_IMAGE = True
-UID = "ELECTRISTAR"
-IMAGE_DIR = "image"
-mavlink = None
-use_delay = CONFIG.get("FAST_DELAY")
-
-logging.info(f"Session Started - UID: {UID}, GROUP: {GROUP}, PORT: {PORT}, MOCK: {MOCK}, IMAGES: {EXPORT_IMAGE}")
+logging.info(f"Session Started - UID: {UID}, GROUP: {GROUP}, PORT: {PORT}, MOCK: {MOCK}, IMAGES: {EXPORT_DETECTED}")
 
 # Create a UDP socket for sending CoT messages
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
@@ -50,18 +53,9 @@ if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
 
-# Define the codec and create VideoWriter object for GStreamer
-# Here we're using 'autovideosink' for display, but you can replace it with your desired GStreamer pipeline
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('appsrc ! videoconvert ! x264enc tune=zerolatency bitrate=500 speed-preset=superfast ! rtph264pay ! udpsink host=192.168.1.146 port=5000', fourcc, 20.0, (int(cap.get(3)), int(cap.get(4))))
-
-
-
-
-
-
-
-
+#! View webcam
+video_stream_thread = threading.Thread(target=func.video_stream_server, args=(cap,))
+video_stream_thread.start()
 
 for result in func.gps_data(mavlink, MOCK):
     if result["class"] == "TPV":            
@@ -69,11 +63,7 @@ for result in func.gps_data(mavlink, MOCK):
             
     #! Capture video frame
     ret, frame = cap.read()
-    if ret:
-        # Send frame to GStreamer pipeline
-        out.write(frame)
-        
-        
+    if ret:        
         #!Perform object detection on the frame
         (h, w) = frame.shape[:2]
         blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
@@ -90,17 +80,15 @@ for result in func.gps_data(mavlink, MOCK):
                     cv2.rectangle(frame, (startX, startY), (endX, endY), COLORS[idx], 2)
                     y = startY - 15 if startY - 15 > 15 else startY + 15
                     cv2.putText(frame, label, (startX, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
-        #!
         
-                    if not MOCK and EXPORT_IMAGE: func.save_image_person(mavlink, frame, IMAGE_DIR)
-                    # Optional: Display the frame (you can remove this if you don't want to see the live footage)
-                    #cv2.imshow('Webcam Feed', frame)
+                    if not MOCK and EXPORT_DETECTED: func.save_image_person(mavlink, frame, IMAGE_DIR)
                     func.cot_person_detected(result, sock, GROUP, PORT)
                     
 
 
 
 # Release video capture when done
+video_stream_thread.join()
 cap.release()
-out.release()
 cv2.destroyAllWindows()
+

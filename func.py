@@ -1,8 +1,26 @@
-import os, subprocess, time, cv2, logging
+import os, subprocess, time, cv2, logging, yaml
 from pymavlink import mavutil
 from datetime import datetime, timedelta
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s", filename="log.txt")
+
+class Configuration:
+    def __init__(self, config_file="config.yaml"):
+        with open(config_file, 'r', encoding='UTF-8') as f:
+            self.config = yaml.safe_load(f)
+
+    def get(self, option):
+        return self.config.get(option)
+CONFIG = Configuration()  
+
+def set_constants(CONFIG):
+    mavlink = None
+    GROUP = CONFIG.get("GROUP")
+    PORT = CONFIG.get("PORT")
+    UID = CONFIG.get("UID")
+    IMAGE_DIR = CONFIG.get("IMAGE_DIR")
+    use_delay = CONFIG.get("FAST_DELAY")
+    return GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay
 
 def mavConnect():
     # Create MAVLINK CONNECTION with to Computer and PI
@@ -68,7 +86,7 @@ def cot_person_detected(result, sock, group, port, callsign="Detected Person"):
 
     # CoT message format
     cot_template = """<event version='2.0' uid='{callsign}' type='a-h-G-U-C' time='{event_time}' start='{start_time}' stale='{stale_time}' how='m-g'>
-    <point lat='{lat}' lon='{lon}' hae='{altitude}' ce='9999999.0' le='9999999.0'/>
+    <point lat='{lat}' lon='{lon}' hae='9999999.0' ce='9999999.0' le='9999999.0'/>
     <detail>
         <contact callsign='{callsign}'/>
     </detail>
@@ -97,7 +115,7 @@ def cot_person_detected(result, sock, group, port, callsign="Detected Person"):
 def gps_data(mavlink, mock):
     if mock: 
         #mock_gps_data()
-        for _ in range(10):  # Simulating 10 GPS updates
+        for _ in range(1):  # Simulating 10 GPS updates
             # Mock data: incrementally moving from lat 0, lon 0 to lat 10, lon 10
             # with a constant speed of 5 (for simplicity)
             for i in range(10):
@@ -132,6 +150,57 @@ def gps_data(mavlink, mock):
                 "alt": str(alt)
             }
 
-def save_image_person(mavlink, frame, directory):
+def save_image_person(result, frame, directory):
     time_string = datetime.now().strftime("%Y%m%d-%H%M%S")
-    cv2.imwrite(directory + '/DETECTED-Person-C_{}-GPS_{}.jpg'.format(time_string, mavlink.location()), frame)
+    lat, lon, altitude = result["lat"], result["lon"], result["alt"]  
+    location = f"lat_{lat}-lon_{lon}-alt_{altitude}"
+    cv2.imwrite(directory + '/DETECTED-Person-C_{}-GPS_{}.jpg'.format(time_string, location), frame)
+    
+def video_stream_server(cap):
+    import pickle, struct, socket, threading
+    host = '0.0.0.0'  # Listen on all available interfaces
+    port = 8485       # Choose an appropriate port
+
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind((host, port))
+    server_socket.listen(5)
+    print("Video stream server waiting for a connection...")
+
+
+    def handle_client(connection, client_address):
+        print(f"Accepted video stream connection from {client_address}")
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
+
+            data = pickle.dumps(frame)
+            message_size = struct.pack("L", len(data))
+            try:
+                connection.sendall(message_size + data)
+            except:
+                # Handle disconnections
+                break
+        connection.close()
+        print(f"Connection with {client_address} closed.")
+
+    while True:
+        connection, client_address = server_socket.accept()
+        client_thread = threading.Thread(target=handle_client, args=(connection, client_address))
+        client_thread.start()
+
+    # connection, client_address = server_socket.accept()
+    # print(f"Accepted video stream connection from {client_address}")
+
+    # while True:
+    #     ret, frame = cap.read()
+    #     if not ret:
+    #         break
+
+    #     data = pickle.dumps(frame)
+    #     message_size = struct.pack("L", len(data))
+
+    #     #Send message size and data
+    #     connection.sendall(message_size + data)
+
+    server_socket.close()
