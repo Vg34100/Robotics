@@ -1,0 +1,14 @@
+mock_mode: true
+
+export_frames: false
+export_detections: true
+export_video: false
+detection_log: false
+
+udp_ip: '239.2.3.1'
+udp_port: 6969
+mavlink_connection_string: 'udp:127.0.0.1:14550'
+gstreamer_pipeline: 'nvarguscamerasrc ! video/x-raw(memory:NVMM), width=1280, height=720, format=NV12, framerate=30/1 ! nvvidconv ! video/x-raw, format=BGRx ! videoconvert ! video/x-raw, format=BGR ! appsink'
+model_path: 'runs/detect/train/weights/best.pt'
+threshold: 0.1
+frame_skip: 5

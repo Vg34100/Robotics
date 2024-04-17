@@ -3,3 +3,11 @@
 output.avi
 log.txt
 
+/datasets
+/hardhat
+/yolo
+/train-yolov8-custom-dataset-step-by-step-guide-master
+/runs/detect
+/netmodel
+/models
+/tensorflow
