@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time, socket, cv2, logging, yaml, threading, pickle, struct, os
 from datetime import datetime, timedelta
 from queue import Queue
@@ -44,6 +45,7 @@ stop_queue = False
 
 # Constants
 GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay = func.set_constants(CONFIG)
+#add creation of image folder
 logging.info(f"Session Started - UID: {UID}, GROUP: {GROUP}, PORT: {PORT}, MOCK: {MOCK}, IMAGES: {EXPORT_DETECTED}")
 
 # Create a UDP socket for sending CoT messages

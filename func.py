@@ -213,7 +213,7 @@ def detectSetup():
     return net, CLASSES, COLORS
 
 def captureSetup():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     if not cap.isOpened():
         print("Error: Could not open camera.")
         exit()

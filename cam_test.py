@@ -17,11 +17,11 @@ def load_config():
     global export_video, export_detections, mock_mode
     global udp_ip, udp_port
     
-    with open('config_new.yaml', 'r') as file:
+    with open('/home/jetson/Robotics/config_new.yaml', 'r') as file:
         config = safe_load(file)
         
-    basicConfig(filename='log.txt', level=INFO, format='%(asctime)s - %(message)s')
-
+    basicConfig(filename='/home/jetson/Robotics/log.txt', level=INFO, format='%(asctime)s - %(message)s')
+    info("This is an info message")
     mock_mode = config['mock_mode']
 
     model_path = config['model_path']
@@ -91,7 +91,7 @@ def send_location_cot_message(sock):
         if mock_mode:
             location = get_mock_location()
         else:
-            location = get_real_location()
+            location = get_real_location(mavlink)
 
         # Construct location COT message
         location_cot_message = construct_location_cot_message(location)
@@ -111,20 +111,19 @@ def send_location_cot_message(sock):
         sleep(1)
  
 def mavConnect():
+    info("Establishing MavLink Connection")
     # Create MAVLINK CONNECTION with to Computer and PI
-    command = ['/home/pi/.local/bin/mavproxy.py', '--master=/dev/ttyACM0', '--out=tcpin:0.0.0.0:5760', '--out=tcpin:0.0.0.0:5761', '--aircraft', 'Electristar']
+    command = ['/usr/local/bin/mavproxy.py', '--master=/dev/ttyUSB0', '--out=tcpin:0.0.0.0:5760', '--out=tcpin:0.0.0.0:5761', '--aircraft', 'Hatchbox']
     
-    if os.geteuid() == 0:
-        process = subprocess.Popen(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-    else:
-        print("Script is not being run as root. Please use sudo.")
-        return None
-
-    sleep(1)
-
+    
+    process = subprocess.Popen(command)
+    info("Past subprocess")
+    info(".Waiting")
+    sleep(6)
+    print(" for heartbeat\n")
     # Start a connection listening on a UDP port (PI)
     mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
-
+    print("Heartbeat connecting...\n")
     # Wait for the first heartbeat
     mavlink.wait_heartbeat()
     print("Heartbeat from system (system %u component %u)" % (mavlink.target_system, mavlink.target_component))
@@ -161,22 +160,23 @@ if not mock_mode:
     gps_data_generator = gps_data(mavlink, mock_mode)
 
 # Start the location COT message thread
-location_cot_thread = Thread(target=send_location_cot_message, args=(sock,))
-location_cot_thread.start()
+# location_cot_thread = Thread(target=send_location_cot_message, args=(sock,))
+# location_cot_thread.start()
 
 
-results = model.predict(source="0", imgsz=(640,480), stream_buffer=False, conf=threshold, show=True, stream=True, classes=1, save=export_video, save_frames=export_frames, save_txt=detection_log, save_conf=detection_log, save_crop=export_detections)  # [0, 3, 5] for multiple classes
+results = model.predict(source="0", vid_stride=1, imgsz=(640,480), stream_buffer=False, conf=threshold, show=True, stream=True, classes=1, save=export_video, save_frames=export_frames, save_txt=detection_log, save_conf=detection_log, save_crop=export_detections)  # [0, 3, 5] for multiple classes
 
 try:
     for i, (result) in enumerate(results):
         # print('Do something with class 0')
         if result:
-            print("Do something")
+            # print("Do something")
+            pass
 except KeyboardInterrupt:
     print("Exiting program...")
     running = False
     
 finally:
-    location_cot_thread.join()
+    # location_cot_thread.join()
     
     print("Program closed.")

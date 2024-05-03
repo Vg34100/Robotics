@@ -1,0 +1,382 @@
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-04-22/flight7
+Telemetry log: Hatchbox/logs/2024-04-22/flight7/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-04-22/flight12
+Telemetry log: Hatchbox/logs/2024-04-22/flight12/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+Traceback (most recent call last):
+  File "/usr/local/bin/mavproxy.py", line 1429, in <module>
+    mpstate.mav_outputs.append(mavutil.mavlink_connection(port, baud=int(opts.baudrate), input=False))
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1760, in mavlink_connection
+    return mavtcpin(device[6:], source_system=source_system, source_component=source_component, retries=retries, use_native=use_native)
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1328, in __init__
+    self.listen.bind(self.listen_addr)
+OSError: [Errno 98] Address already in use
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-05-03/flight1
+Telemetry log: Hatchbox/logs/2024-05-03/flight1/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-05-03/flight2
+Telemetry log: Hatchbox/logs/2024-05-03/flight2/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-05-03/flight3
+Telemetry log: Hatchbox/logs/2024-05-03/flight3/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-05-03/flight4
+Telemetry log: Hatchbox/logs/2024-05-03/flight4/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+/dev/ttyUSB0 detected.
+Connect /dev/ttyUSB0 source_system=255
+no script Hatchbox/mavinit.scr
+Log Directory: Hatchbox/logs/2024-05-03/flight5
+Telemetry log: Hatchbox/logs/2024-05-03/flight5/flight.tlog
+Waiting for heartbeat from /dev/ttyUSB0
+MAV> Unloading module link
+Unloading module log
+Unloading module signing
+Unloading module wp
+Unloading module rally
+Unloading module fence
+Unloading module ftp
+Unloading module param
+Unloading module relay
+Unloading module tuneopt
+Unloading module arm
+Unloading module mode
+Unloading module calibration
+Unloading module rc
+Unloading module auxopt
+Unloading module misc
+Unloading module cmdlong
+Unloading module battery
+Unloading module terrain
+Unloading module output
+Unloading module adsb
+Unloading module layout
+ for heartbeat
+
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Traceback (most recent call last):
+  File "cam_test.py", line 157, in <module>
+    mavlink, process = mavConnect()
+  File "cam_test.py", line 125, in mavConnect
+    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1753, in mavlink_connection
+    return mavtcp(device[4:],
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1234, in __init__
+    self.do_connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1257, in do_connect
+    raise e
+  File "/usr/local/lib/python3.8/dist-packages/pymavlink/mavutil.py", line 1250, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
