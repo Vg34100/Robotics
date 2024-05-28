@@ -1,0 +1,37 @@
+MOCK: true
+
+#""" Mavlink Connection """
+MAVLINK_CONNECT: true
+GROUP: "239.2.3.1"
+PORT: 6969
+UID: "ELECTRISTAR"
+MAVLINK_DIR: '/home/pi/.local/bin/mavproxy.py'
+MASTER: '--master=/dev/ttyACM0'
+
+#""" G-Streamer Compatibility """
+STREAM_SERVER: true
+G-HOST: '0.0.0.0'
+G-PORT: 8485
+TIMEOUT_TIMER: 5
+
+#""" Webcam Recording/Exporting """
+CAM_RECORD: true
+VIDEO_FILE: 'output.avi'
+EXPORT_FRAMES: true
+TIME_INTERVAL: 0.5
+
+#""" Object Detection """
+OBJECT_DETECT: true
+EXPORT_DETECTED: true
+
+#""" CoT Messages """
+COT_MSG: true
+STATIONARY_DELAY: 45
+SLOW_DELAY: 25
+FAST_DELAY: 2
+
+#""" Directory Info """
+EXPORT_DIR: "export"
+LOG_DIR: "logs"
+IMAGE_DIR: "images"
+VIDEO_DIR: "videos"

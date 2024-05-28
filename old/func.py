@@ -2,47 +2,47 @@ import os, subprocess, time, cv2, logging, yaml
 from pymavlink import mavutil
 from datetime import datetime, timedelta
 
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s", filename="log.txt")
+# logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s", filename="log.txt")
 
-class Configuration:
-    def __init__(self, config_file="config.yaml"):
-        with open(config_file, 'r', encoding='UTF-8') as f:
-            self.config = yaml.safe_load(f)
+# class Configuration:
+#     def __init__(self, config_file="config.yaml"):
+#         with open(config_file, 'r', encoding='UTF-8') as f:
+#             self.config = yaml.safe_load(f)
 
-    def get(self, option):
-        return self.config.get(option)
-CONFIG = Configuration()  
+#     def get(self, option):
+#         return self.config.get(option)
+# CONFIG = Configuration()  
 
-def set_constants(CONFIG):
-    mavlink = None
-    GROUP = CONFIG.get("GROUP")
-    PORT = CONFIG.get("PORT")
-    UID = CONFIG.get("UID")
-    IMAGE_DIR = CONFIG.get("IMAGE_DIR")
-    use_delay = CONFIG.get("FAST_DELAY")
-    return GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay
+# def set_constants(CONFIG):
+#     mavlink = None
+#     GROUP = CONFIG.get("GROUP")
+#     PORT = CONFIG.get("PORT")
+#     UID = CONFIG.get("UID")
+#     IMAGE_DIR = CONFIG.get("IMAGE_DIR")
+#     use_delay = CONFIG.get("FAST_DELAY")
+#     return GROUP, PORT, UID, IMAGE_DIR, mavlink, use_delay
 
-def mavConnect():
-    # Create MAVLINK CONNECTION with to Computer and PI
-    command = ['/home/pi/.local/bin/mavproxy.py', '--master=/dev/ttyACM0', '--out=tcpin:0.0.0.0:5760', '--out=tcpin:0.0.0.0:5761', '--aircraft', 'Electristar']
+# def mavConnect():
+#     # Create MAVLINK CONNECTION with to Computer and PI
+#     command = ['/home/pi/.local/bin/mavproxy.py', '--master=/dev/ttyACM0', '--out=tcpin:0.0.0.0:5760', '--out=tcpin:0.0.0.0:5761', '--aircraft', 'Electristar']
     
-    if os.geteuid() == 0:
-        process = subprocess.Popen(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-    else:
-        print("Script is not being run as root. Please use sudo.")
-        return None
+#     if os.geteuid() == 0:
+#         process = subprocess.Popen(command, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+#     else:
+#         print("Script is not being run as root. Please use sudo.")
+#         return None
 
-    time.sleep(1)
+#     time.sleep(1)
 
-    # Start a connection listening on a UDP port (PI)
-    mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
+#     # Start a connection listening on a UDP port (PI)
+#     mavlink = mavutil.mavlink_connection('tcp:0.0.0.0:5761')
 
-    # Wait for the first heartbeat 
-    mavlink.wait_heartbeat()
-    print("Heartbeat from system (system %u component %u)" % (mavlink.target_system, mavlink.target_component))
+#     # Wait for the first heartbeat 
+#     mavlink.wait_heartbeat()
+#     print("Heartbeat from system (system %u component %u)" % (mavlink.target_system, mavlink.target_component))
 
-    logging.info("Mavlink connection established")
-    return mavlink, process
+#     logging.info("Mavlink connection established")
+#     return mavlink, process
       
 def cot_basic_message(result, delay, last, sock, group, port, uid):
     current_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')

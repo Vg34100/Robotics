@@ -1,0 +1,521 @@
+2023-11-22 14:25:12,240 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-EXPORT_FRAMES
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 14:25:12,240 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 14:25:12,240 - INFO - COT: UDP socket created.
+2023-11-22 14:25:12,241 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 14:25:12,241 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 14:25:12,241 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 14:25:12,242 - INFO - CAM: Starting camera setup...
+2023-11-22 14:25:59,212 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 14:25:59,213 - INFO - RECORD: Starting recording script...
+2023-11-22 14:25:59,213 - INFO - STREAM: Video stream server waiting for a connection...
+2023-11-22 14:25:59,213 - INFO - STREAM: Attempting to Connect with a timeout of 5 seconds
+2023-11-22 14:27:19,220 - INFO - STREAM: Server socket closed.
+2023-11-22 14:27:19,220 - INFO - STREAM: Video stream server has been shut down.
+2023-11-22 14:53:39,119 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-EXPORT_FRAMES
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 14:53:39,120 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 14:53:39,120 - INFO - COT: UDP socket created.
+2023-11-22 14:53:39,120 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 14:53:39,120 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 14:53:39,120 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 14:53:39,120 - INFO - CAM: Starting camera setup...
+2023-11-22 14:54:23,469 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 14:54:23,469 - INFO - RECORD: Starting recording script...
+2023-11-22 14:54:23,469 - INFO - STREAM: Video stream server waiting for a connection...
+2023-11-22 14:54:23,469 - INFO - STREAM: Attempting to Connect with a timeout of 5 seconds
+2023-11-22 14:55:03,473 - INFO - STREAM: Server socket closed.
+2023-11-22 14:55:03,473 - INFO - STREAM: Video stream server has been shut down.
+2023-11-22 15:57:12,277 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 15:57:12,277 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 15:57:12,278 - INFO - COT: UDP socket created.
+2023-11-22 15:57:12,278 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 15:57:12,278 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 15:57:12,278 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 15:57:12,278 - INFO - CAM: Starting camera setup...
+2023-11-22 15:57:56,613 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 15:57:56,614 - INFO - STREAM: Video stream server waiting for a connection...
+2023-11-22 15:57:56,614 - INFO - STREAM: Attempting to Connect with a timeout of 5 seconds
+2023-11-22 15:58:46,621 - INFO - STREAM: Server socket closed.
+2023-11-22 15:58:46,621 - INFO - STREAM: Video stream server has been shut down.
+2023-11-22 15:58:46,621 - INFO - CAM: Recording thread has been shut down.
+2023-11-22 15:59:40,518 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 15:59:40,518 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 15:59:40,519 - INFO - COT: UDP socket created.
+2023-11-22 15:59:40,519 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 15:59:40,519 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 15:59:40,519 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 15:59:40,519 - INFO - CAM: Starting camera setup...
+2023-11-22 16:00:24,898 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:00:24,898 - INFO - RECORD: Starting recording script...
+2023-11-22 16:00:24,899 - INFO - STREAM: Video stream server waiting for a connection...
+2023-11-22 16:00:24,899 - INFO - STREAM: Attempting to Connect with a timeout of 5 seconds
+2023-11-22 16:00:24,918 - ERROR - RECORD: VideoWriter failed to open.
+2023-11-22 16:00:24,918 - INFO - CAM: Recording has been initialized
+2023-11-22 16:00:25,643 - INFO - Exported frame to images\frame_20231122_160025642938.jpg
+2023-11-22 16:00:26,603 - INFO - Exported frame to images\frame_20231122_160026603607.jpg
+2023-11-22 16:00:27,603 - INFO - Exported frame to images\frame_20231122_160027603517.jpg
+2023-11-22 16:00:28,600 - INFO - Exported frame to images\frame_20231122_160028600492.jpg
+2023-11-22 16:00:29,605 - INFO - Exported frame to images\frame_20231122_160029605121.jpg
+2023-11-22 16:00:30,599 - INFO - Exported frame to images\frame_20231122_160030599624.jpg
+2023-11-22 16:00:31,643 - INFO - Exported frame to images\frame_20231122_160031643934.jpg
+2023-11-22 16:00:32,601 - INFO - Exported frame to images\frame_20231122_160032601773.jpg
+2023-11-22 16:00:33,643 - INFO - Exported frame to images\frame_20231122_160033643211.jpg
+2023-11-22 16:00:34,636 - INFO - Exported frame to images\frame_20231122_160034636336.jpg
+2023-11-22 16:00:35,643 - INFO - Exported frame to images\frame_20231122_160035643804.jpg
+2023-11-22 16:00:36,636 - INFO - Exported frame to images\frame_20231122_160036636042.jpg
+2023-11-22 16:00:37,627 - INFO - Exported frame to images\frame_20231122_160037627939.jpg
+2023-11-22 16:00:38,635 - INFO - Exported frame to images\frame_20231122_160038635068.jpg
+2023-11-22 16:00:39,628 - INFO - Exported frame to images\frame_20231122_160039628236.jpg
+2023-11-22 16:00:40,620 - INFO - Exported frame to images\frame_20231122_160040620081.jpg
+2023-11-22 16:00:41,627 - INFO - Exported frame to images\frame_20231122_160041627560.jpg
+2023-11-22 16:00:42,621 - INFO - Exported frame to images\frame_20231122_160042621706.jpg
+2023-11-22 16:00:43,611 - INFO - Exported frame to images\frame_20231122_160043611495.jpg
+2023-11-22 16:00:44,619 - INFO - Exported frame to images\frame_20231122_160044619567.jpg
+2023-11-22 16:00:45,618 - INFO - Exported frame to images\frame_20231122_160045618106.jpg
+2023-11-22 16:00:46,613 - INFO - Exported frame to images\frame_20231122_160046613057.jpg
+2023-11-22 16:00:47,613 - INFO - Exported frame to images\frame_20231122_160047613948.jpg
+2023-11-22 16:00:48,615 - INFO - Exported frame to images\frame_20231122_160048615376.jpg
+2023-11-22 16:00:49,605 - INFO - Exported frame to images\frame_20231122_160049605451.jpg
+2023-11-22 16:00:50,615 - INFO - Exported frame to images\frame_20231122_160050615357.jpg
+2023-11-22 16:00:51,604 - INFO - Exported frame to images\frame_20231122_160051604906.jpg
+2023-11-22 16:00:52,594 - INFO - Exported frame to images\frame_20231122_160052594821.jpg
+2023-11-22 16:00:53,603 - INFO - Exported frame to images\frame_20231122_160053603389.jpg
+2023-11-22 16:00:54,595 - INFO - Exported frame to images\frame_20231122_160054595657.jpg
+2023-11-22 16:00:55,643 - INFO - Exported frame to images\frame_20231122_160055643342.jpg
+2023-11-22 16:00:56,601 - INFO - Exported frame to images\frame_20231122_160056601714.jpg
+2023-11-22 16:00:57,643 - INFO - Exported frame to images\frame_20231122_160057643194.jpg
+2023-11-22 16:00:58,637 - INFO - Exported frame to images\frame_20231122_160058637548.jpg
+2023-11-22 16:00:59,643 - INFO - Exported frame to images\frame_20231122_160059643899.jpg
+2023-11-22 16:01:00,635 - INFO - Exported frame to images\frame_20231122_160100635483.jpg
+2023-11-22 16:01:01,627 - INFO - Exported frame to images\frame_20231122_160101627280.jpg
+2023-11-22 16:01:02,635 - INFO - Exported frame to images\frame_20231122_160102635791.jpg
+2023-11-22 16:01:03,627 - INFO - Exported frame to images\frame_20231122_160103627727.jpg
+2023-11-22 16:01:04,619 - INFO - Exported frame to images\frame_20231122_160104619611.jpg
+2023-11-22 16:01:05,627 - INFO - Exported frame to images\frame_20231122_160105627194.jpg
+2023-11-22 16:01:06,623 - INFO - Exported frame to images\frame_20231122_160106623865.jpg
+2023-11-22 16:01:07,611 - INFO - Exported frame to images\frame_20231122_160107611352.jpg
+2023-11-22 16:01:08,619 - INFO - Exported frame to images\frame_20231122_160108619340.jpg
+2023-11-22 16:01:09,611 - INFO - Exported frame to images\frame_20231122_160109611334.jpg
+2023-11-22 16:01:10,614 - INFO - Exported frame to images\frame_20231122_160110614660.jpg
+2023-11-22 16:01:11,615 - INFO - Exported frame to images\frame_20231122_160111615789.jpg
+2023-11-22 16:01:12,617 - INFO - Exported frame to images\frame_20231122_160112617615.jpg
+2023-11-22 16:01:13,609 - INFO - Exported frame to images\frame_20231122_160113609327.jpg
+2023-11-22 16:01:14,615 - INFO - Exported frame to images\frame_20231122_160114615390.jpg
+2023-11-22 16:01:15,606 - INFO - Exported frame to images\frame_20231122_160115606530.jpg
+2023-11-22 16:01:16,599 - INFO - Exported frame to images\frame_20231122_160116599223.jpg
+2023-11-22 16:01:17,605 - INFO - Exported frame to images\frame_20231122_160117605966.jpg
+2023-11-22 16:01:18,600 - INFO - Exported frame to images\frame_20231122_160118600250.jpg
+2023-11-22 16:01:19,643 - INFO - Exported frame to images\frame_20231122_160119643629.jpg
+2023-11-22 16:01:20,599 - INFO - Exported frame to images\frame_20231122_160120599211.jpg
+2023-11-22 16:01:21,645 - INFO - Exported frame to images\frame_20231122_160121645236.jpg
+2023-11-22 16:01:22,634 - INFO - Exported frame to images\frame_20231122_160122634189.jpg
+2023-11-22 16:01:23,642 - INFO - Exported frame to images\frame_20231122_160123642821.jpg
+2023-11-22 16:01:24,635 - INFO - Exported frame to images\frame_20231122_160124635760.jpg
+2023-11-22 16:01:25,626 - INFO - Exported frame to images\frame_20231122_160125626984.jpg
+2023-11-22 16:01:26,635 - INFO - Exported frame to images\frame_20231122_160126635684.jpg
+2023-11-22 16:01:27,627 - INFO - Exported frame to images\frame_20231122_160127627561.jpg
+2023-11-22 16:01:28,619 - INFO - Exported frame to images\frame_20231122_160128619070.jpg
+2023-11-22 16:01:29,627 - INFO - Exported frame to images\frame_20231122_160129627758.jpg
+2023-11-22 16:01:29,904 - INFO - STREAM: Server socket closed.
+2023-11-22 16:01:29,904 - INFO - STREAM: Video stream server has been shut down.
+2023-11-22 16:01:30,428 - INFO - Recording process ended.
+2023-11-22 16:01:30,428 - INFO - CAM: Recording thread has been shut down.
+2023-11-22 16:02:02,730 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:02:02,731 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:02:02,731 - INFO - COT: UDP socket created.
+2023-11-22 16:02:02,731 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:02:02,731 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:02:02,731 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:02:02,731 - INFO - CAM: Starting camera setup...
+2023-11-22 16:02:48,177 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:02:48,178 - INFO - STREAM: Video stream server waiting for a connection...
+2023-11-22 16:02:48,178 - INFO - STREAM: Attempting to Connect with a timeout of 5 seconds
+2023-11-22 16:02:48,178 - INFO - RECORD: Starting recording script...
+2023-11-22 16:02:48,183 - INFO - CAM: Recording has been initialized
+2023-11-22 16:02:48,995 - INFO - Exported frame to export\images\frame_20231122_160248991969.jpg
+2023-11-22 16:02:49,993 - INFO - Exported frame to export\images\frame_20231122_160249989471.jpg
+2023-11-22 16:02:50,986 - INFO - Exported frame to export\images\frame_20231122_160250981275.jpg
+2023-11-22 16:02:51,984 - INFO - Exported frame to export\images\frame_20231122_160251974412.jpg
+2023-11-22 16:02:52,990 - INFO - Exported frame to export\images\frame_20231122_160252984875.jpg
+2023-11-22 16:02:53,985 - INFO - Exported frame to export\images\frame_20231122_160253980447.jpg
+2023-11-22 16:02:54,973 - INFO - Exported frame to export\images\frame_20231122_160254968257.jpg
+2023-11-22 16:02:55,984 - INFO - Exported frame to export\images\frame_20231122_160255973835.jpg
+2023-11-22 16:02:56,970 - INFO - Exported frame to export\images\frame_20231122_160256966420.jpg
+2023-11-22 16:02:58,016 - INFO - Exported frame to export\images\frame_20231122_160258011732.jpg
+2023-11-22 16:02:58,970 - INFO - Exported frame to export\images\frame_20231122_160258966536.jpg
+2023-11-22 16:03:00,023 - INFO - Exported frame to export\images\frame_20231122_160300013215.jpg
+2023-11-22 16:03:01,015 - INFO - Exported frame to export\images\frame_20231122_160301010538.jpg
+2023-11-22 16:03:02,018 - INFO - Exported frame to export\images\frame_20231122_160302013146.jpg
+2023-11-22 16:03:03,009 - INFO - Exported frame to export\images\frame_20231122_160303005380.jpg
+2023-11-22 16:03:04,009 - INFO - Exported frame to export\images\frame_20231122_160303999098.jpg
+2023-11-22 16:03:05,011 - INFO - Exported frame to export\images\frame_20231122_160305007405.jpg
+2023-11-22 16:03:06,000 - INFO - Exported frame to export\images\frame_20231122_160305995534.jpg
+2023-11-22 16:03:06,993 - INFO - Exported frame to export\images\frame_20231122_160306988050.jpg
+2023-11-22 16:03:08,006 - INFO - Exported frame to export\images\frame_20231122_160307996981.jpg
+2023-11-22 16:03:08,994 - INFO - Exported frame to export\images\frame_20231122_160308989745.jpg
+2023-11-22 16:03:09,998 - INFO - Exported frame to export\images\frame_20231122_160309994225.jpg
+2023-11-22 16:03:10,991 - INFO - Exported frame to export\images\frame_20231122_160310987878.jpg
+2023-11-22 16:03:12,001 - INFO - Exported frame to export\images\frame_20231122_160311991732.jpg
+2023-11-22 16:03:12,992 - INFO - Exported frame to export\images\frame_20231122_160312984105.jpg
+2023-11-22 16:03:13,995 - INFO - Exported frame to export\images\frame_20231122_160313990497.jpg
+2023-11-22 16:03:14,990 - INFO - Exported frame to export\images\frame_20231122_160314985195.jpg
+2023-11-22 16:03:15,985 - INFO - Exported frame to export\images\frame_20231122_160315979929.jpg
+2023-11-22 16:03:16,988 - INFO - Exported frame to export\images\frame_20231122_160316983375.jpg
+2023-11-22 16:03:17,982 - INFO - Exported frame to export\images\frame_20231122_160317977848.jpg
+2023-11-22 16:03:18,180 - INFO - STREAM: Server socket closed.
+2023-11-22 16:03:18,180 - INFO - STREAM: Video stream server has been shut down.
+2023-11-22 16:03:18,767 - INFO - Recording process ended.
+2023-11-22 16:03:18,768 - INFO - CAM: Recording thread has been shut down.
+2023-11-22 16:33:06,713 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:33:06,713 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:33:06,714 - INFO - COT: UDP socket created.
+2023-11-22 16:33:06,714 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:33:06,714 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:33:06,714 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:33:06,714 - INFO - CAM: Starting camera setup...
+2023-11-22 16:33:50,975 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:33:51,342 - DEBUG - Using proactor: IocpProactor
+2023-11-22 16:34:27,112 - INFO - STREAM: Accepted video stream connection from ('127.0.0.1', 60582)
+2023-11-22 16:35:22,843 - ERROR - STREAM: Error sending data to ('127.0.0.1', 60582): [WinError 64] The specified network name is no longer available
+2023-11-22 16:35:22,844 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<handle_client() done, defined at a:\Projects\The Mechanism Drive\Robotics\frame_queue.py:33> exception=ConnectionResetError(22, 'The specified network name is no longer available', None, 64, None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\windows_events.py", line 552, in finish_send
+    return ov.getresult()
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "a:\Projects\The Mechanism Drive\Robotics\frame_queue.py", line 55, in handle_client
+    await writer.wait_closed()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\streams.py", line 343, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\proactor_events.py", line 385, in _loop_writing
+    f.result()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\windows_events.py", line 826, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\windows_events.py", line 556, in finish_send
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2023-11-22 16:47:07,727 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:47:07,727 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:47:07,727 - INFO - COT: UDP socket created.
+2023-11-22 16:47:07,727 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:47:07,728 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:47:07,728 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:47:07,728 - INFO - CAM: Starting camera setup...
+2023-11-22 16:47:52,089 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:48:11,169 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:48:11,169 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:48:11,169 - INFO - COT: UDP socket created.
+2023-11-22 16:48:11,169 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:48:11,169 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:48:11,169 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:48:11,169 - INFO - CAM: Starting camera setup...
+2023-11-22 16:48:53,262 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:48:53,262 - INFO - FRAMES: Opening frame thread
+2023-11-22 16:48:53,263 - DEBUG - Using proactor: IocpProactor
+2023-11-22 16:48:53,264 - INFO - STREAM: Starting video streaming program
+2023-11-22 16:51:56,841 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:51:56,841 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:51:56,841 - INFO - COT: UDP socket created.
+2023-11-22 16:51:56,841 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:51:56,841 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:51:56,841 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:51:56,841 - INFO - CAM: Starting camera setup...
+2023-11-22 16:53:03,540 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:53:03,540 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:53:03,540 - INFO - COT: UDP socket created.
+2023-11-22 16:53:03,540 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:53:03,540 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:53:03,540 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:53:03,541 - INFO - CAM: Starting camera setup...
+2023-11-22 16:53:56,894 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:53:56,895 - INFO - FRAMES: Opening frame thread
+2023-11-22 16:53:56,895 - DEBUG - Using proactor: IocpProactor
+2023-11-22 16:53:56,896 - INFO - STREAM: Starting video streaming program
+2023-11-22 16:56:56,736 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:56:56,736 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:56:56,736 - INFO - COT: UDP socket created.
+2023-11-22 16:56:56,736 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:56:56,736 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:56:56,736 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:56:56,736 - INFO - CAM: Starting camera setup...
+2023-11-22 16:57:56,967 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 16:57:56,967 - INFO - FRAMES: Opening frame thread
+2023-11-22 16:57:56,967 - DEBUG - Using proactor: IocpProactor
+2023-11-22 16:57:56,968 - INFO - STREAM: Starting video streaming program
+2023-11-22 16:58:23,262 - INFO - Caught keyboard interrupt. Canceling tasks...
+2023-11-22 16:58:23,263 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<IocpProactor.accept.<locals>.accept_coro() running at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\windows_events.py:580> wait_for=<_OverlappedFuture cancelled>>
+2023-11-22 16:58:23,263 - INFO - Server has been shut down.
+2023-11-22 16:58:35,970 - INFO - STREAM: Attempting to close video streaming program
+2023-11-22 16:59:01,642 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 16:59:01,643 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 16:59:01,643 - INFO - COT: UDP socket created.
+2023-11-22 16:59:01,643 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 16:59:01,643 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 16:59:01,643 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 16:59:01,643 - INFO - CAM: Starting camera setup...
+2023-11-22 17:00:04,847 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 17:00:04,847 - INFO - FRAMES: Opening frame thread
+2023-11-22 17:00:04,848 - DEBUG - Using proactor: IocpProactor
+2023-11-22 17:00:04,849 - INFO - STREAM: Starting video streaming program
+2023-11-22 17:01:17,950 - INFO - Session Started:
+----------------
+* Session Info:
+**MOCK FLIGHT**
+UID: ELECTRISTAR
+GROUP: 239.2.3.1
+PORT: 6969
+----------------
+* Directories:
+IMAGE DIR: images
+----------------
+* Active:
+-MAVLINK_CONNECT
+-STREAM_SERVER
+-CAM_RECORD
+-OBJECT_DETECT
+-EXPORT_DETECTED
+-COT_MSG
+----------------
+
+2023-11-22 17:01:17,951 - INFO - COT: Initializing CoT UDP socket...
+2023-11-22 17:01:17,951 - INFO - COT: UDP socket created.
+2023-11-22 17:01:17,951 - INFO - COT: Set socket IP_MULTICAST_TTL to 2.
+2023-11-22 17:01:17,951 - INFO - COT: CoT UDP socket initialization successful.
+2023-11-22 17:01:17,951 - ERROR - MAV: MAVLINK connection not designed to run on Windows
+2023-11-22 17:01:17,951 - INFO - CAM: Starting camera setup...
+2023-11-22 17:02:12,519 - INFO - CAM: Found camera with fps of 30.0
+2023-11-22 17:02:12,519 - INFO - FRAMES: Opening frame thread
